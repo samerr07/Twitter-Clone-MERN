@@ -46,7 +46,7 @@ server.use("/api/v1/tweet", tweetRouter.router);
 
 
 server.get("/",(req,res)=>{
-    res.json("Server Started !!")
+    res.send("Server Started !!")
 })
 
 
